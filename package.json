@@ -1,0 +1,11 @@
+{
+	"name" : "OA AST 2017 - TP1",
+	"description" : "TP 1 for the ECE OA AST class",
+	"version " : "0.0.1",
+	"dependencies" : {
+
+	},
+	"devDependencies" : {
+
+	}
+}
