@@ -9,8 +9,8 @@ Clone the project from gitLab
 ## Run 
 
 Command line : 
-Use "node src/app.js"
-Then enter "curl localhost:8888" or go to "http://localhost:8888" in your web browser 
+* Use "node src/app.js"
+* Then enter "curl localhost:8888" or go to "http://localhost:8888" in your web browser 
 
 ## Contributor
 
