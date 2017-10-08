@@ -16,6 +16,11 @@ module.exports = {
 			        res.writeHead(200, {'Content-Type': 'text/plain'});
 			        res.end('Got the user !');
       			});
+      		} else if (req.url == "/update") {
+      			users.updatePassword("userName", "newPassword", function(){
+      				res.writeHead(200, {'Content-Type': 'text/plain'});
+      				res.end('The password has been updated');
+      			});
       		} else if (req.url == "/") {
 			    res.writeHead(200, {'Content-Type': 'text/plain'});
 			    res.end('Welcome !');     			

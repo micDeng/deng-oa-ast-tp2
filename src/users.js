@@ -6,5 +6,9 @@ module.exports = {
 	get : function (name, callback) {
 		console.log("Getting " + name );
 		callback();
+	},
+	updatePassword : function (name, newPassword, callback){
+		console.log("Updating password for " + name);
+		callback();
 	}
 }
