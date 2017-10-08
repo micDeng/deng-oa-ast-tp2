@@ -1,6 +1,6 @@
 # OA AST 2017 - TP1
 
-TP 1 for the ECE OA AST class
+TP 1 for the ECE OA AST class. This project has been done with the node version v8.4.0. 
 
 ## Installation instruction 
 
